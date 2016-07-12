@@ -6,7 +6,7 @@ function TodoService(){
 			console.log('Todo Data:', JSON.parse(t))
 			return JSON.parse(t)
 		}
-		console.log('Todo Data:', [])
+	console.log('Todo Data:', [])
 		return [];
 	}
 	
